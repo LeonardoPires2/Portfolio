@@ -1,0 +1,164 @@
+body {
+    background-color: rgb(8, 31, 50);
+    color: white;
+    font-family: poppinsregular;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 110px;
+}
+
+#title {
+    flex-direction: row;
+    line-height: 10px;
+    align-items: center;
+    display: contents;
+    margin-top: 100px;
+    justify-content: space-between;
+    padding: 15px;
+
+}
+
+li {
+    display: flex;
+    flex-direction: column;
+    margin: 7px;
+    align-items: stretch;
+
+
+}
+
+ul {
+    align-items: stretch;
+    align-content: space-between;
+}
+
+a {
+    color: rgb(14, 227, 199);
+    text-decoration: none;
+    font-family: 'Kanit', sans-serif;
+    font-size: 15px;
+}
+
+a:hover {
+    color: rgb(144, 144, 147);
+    transition: 0.3s all;
+}
+
+
+
+p {
+    line-height: 20px;
+    max-width: 500px;
+    font-family: 'Kanit', sans-serif;
+    color: rgb(122, 122, 122);
+
+}
+
+main {
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+
+
+
+}
+
+
+span {
+    color: rgb(14, 227, 199);
+
+}
+
+h1 {
+    font-family: 'Zilla Slab', serif;
+    font-size: 57px;
+    width: auto;
+    color: rgb(209, 209, 218)
+}
+
+h2 {
+    font-family: 'Zilla Slab', serif;
+    font-size: 30px;
+    width: auto;
+    color: rgb(144, 144, 147)
+}
+
+
+
+button:hover {
+    background: rgb(61, 61, 62);
+    transition: 0.3s all;
+
+}
+
+h3 {
+    font-family: 'Zilla Slab', serif;
+    font-size: 18px;
+    padding: 7px;
+
+}
+
+
+button {
+    padding: 10px 8px;
+    margin-top: 20px;
+    width: 125px;
+    height: 60px;
+    color: rgb(75, 225, 255);
+    background: rgb(8, 31, 50);
+    border: 2px solid #02ffff;
+    border-radius: 5px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+}
+
+#astro img {
+    max-width: 200px;
+    max-height: 150px;
+    width: auto;
+    height: auto;
+}
+
+
+.software {
+    position: fixed;
+    right: 10px;
+
+    top: 78%;
+    width: 15em;
+    margin-top: -2.5em;
+
+}
+
+li {
+    font-size: 13px;
+    font-family: 'Kanit', sans-serif;
+
+}
+
+h4 {
+    font-family: 'Zilla Slab', serif;
+    font-size: 44px;
+    color: rgb(209, 209, 218);
+
+}
+
+
+
+#foto img{ 
+    display: flex;
+    align-items: center;
+    border: 0px solid;
+    border-radius: 35px;
+}
